@@ -1,11 +1,11 @@
-body{
+/* body{
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   margin: 0;
   padding: 0;
-}
+} */
 
 /* .main {
   display: flex;
@@ -14,33 +14,32 @@ body{
   height: 100vh;
 } */
 
+/* Widly effective and sustainable */
+
 .main-content {
   padding: 20px;
   border-radius: 10px;
-  width: 80%;
-  max-width: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.main-content-title {
-  font-size: 36px; 
-  margin-left: 270px;
-}
-
 .box-container {
   display: flex;
-  justify-content: center;
-  padding-left: 120px;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .box {
   display: inline-block;
-  width: 200px; 
-  margin-left: 20px;
-  padding-left: 60px;
+  width: 200px;
+  margin-right: 20px;
   text-align: center;
+  padding: 10px;
+}
+
+.main-content-title {
+  font-size: 36px;
 }
 
 .box-title {
@@ -53,31 +52,28 @@ body{
   text-align: center;
 }
 
-.box-img{
-width: 100px;
-height: auto;
+.box-img {
+  width: 100px;
+  height: auto;
 }
 
+/* How it works */
 
-
-
-
-
-.body-box{
+.body-box {
   display: flex;
-  padding: 20px; 
+  padding: 20px;
   align-items: center;
   justify-content: center;
 }
 
-.body-img{
+.body-img {
   display: inline-block;
   width: 45%;
   vertical-align: top;
   justify-self: end;
 }
 
-.wildimage{
+.wildimage {
   width: 650px;
   height: auto;
   margin-right: 20px;
@@ -93,32 +89,92 @@ height: auto;
   margin-right: 10px;
 }
 
-.body-container{
+.body-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 10px;
 }
 
-.main-body-title{
+.main-body-title {
   margin-left: 50px;
   position: relative;
   top: 5px;
 }
 
-.leaf-img{
+.leaf-img {
   width: 30px;
   height: auto;
 }
 
-.body-title{
-
-}
-
-.body-content{
+.body-content {
   margin-top: 0;
 }
 
-ul{
+ul {
   list-style: none;
+}
+
+/* On the grapevine */
+
+.grapevine-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grapevine-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 900px;
+  padding: 30px;
+  width: 80%;
+}
+
+.grapevine-title {
+  margin-top: 30px;
+  
+}
+
+.trustpilot-logo {
+  width: 200px;
+}
+
+img .green-stars{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.green-stars {
+  max-width: 200px;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+.trustpilot {
+  text-align: center;
+}
+
+.excellent {
+  margin-top: 0;
+  margin-top: 30px;
+}
+
+.excellent-review {
+  margin-bottom: 0;
+}
+
+.trustpilot-logo {
+  width: 150px;
+  height: auto;
+}
+
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
 }
