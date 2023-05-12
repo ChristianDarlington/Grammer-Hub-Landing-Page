@@ -167,6 +167,7 @@ table {
 
 .main-content-title {
   font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .box-title {
@@ -220,13 +221,15 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 10px;
+  padding-left: 100px;
+  
 }
 
 .main-body-title {
-  margin-left: 50px;
+  padding-bottom: 20px;
   position: relative;
-  top: 5px;
+
+  font-size: 36px;
 }
 
 .leaf-img {
@@ -253,16 +256,14 @@ ul {
 
 .grapevine-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  margin-right: 900px;
   padding: 30px;
   width: 80%;
 }
 
 .grapevine-title {
   margin-top: 30px;
-  font-size: larger;
+  font-size: 36px;
 }
 
 .trustpilot-logo {
@@ -282,7 +283,7 @@ img .green-stars{
 }
 
 .trustpilot {
-  text-align: center;
+ text-align: center;
 }
 
 .excellent {
@@ -310,24 +311,23 @@ img .green-stars{
 .boxes-container{
   display: flex;
   align-items: center;
-  margin: 0 auto;
-  /* margin-top: -250px;
-  margin-left: 1000px; */
-  width: 80%;
+  
+  
 }
 
 
 .green-stars-review{
   max-width: 100px;
   max-height: 100%;
-  margin-top: -100px;
   margin: 0 auto 10px;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  margin-left: 30px;
 }
 
 img .green-stars-review{
-  max-width: 100%;
-  max-height: 100%;
-  margin-right: 100px;
+  
 }
 
 .review-info {
@@ -336,10 +336,13 @@ img .green-stars-review{
   justify-content: center;
   margin-right: 20px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .review-title {
   margin: 0;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .review-posted {
@@ -349,7 +352,8 @@ img .green-stars-review{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 200px;
+  font-style: oblique;
 }
 
 .review-bio {
@@ -372,10 +376,31 @@ img .green-stars-review{
 
 .shopnow-container img{
   height: auto;
-  width: 800px;
-  right: 0;
+  width: 700px;
+  display: flex;
+}
+
+.shopnow-info{
+ 
+
 }
 
 img{
   
+}
+
+
+.shopnow-button {
+  padding: 10px 20px;
+  background-color: #F8AE3B;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.shopnow-title{
+  font-size: 36px;
 }
